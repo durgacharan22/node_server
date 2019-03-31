@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/durgacharan22/node_server/issues"
   },
-  "homepage": "https://github.com/durgacharan22/node_server#readme"
+  "homepage": "https://github.com/durgacharan22/node_server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.20"
+  }
 }
