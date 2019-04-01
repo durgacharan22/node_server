@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 const users = require('./routes/users');
 const posts = require('./routes/posts');
 const comments = require('./routes/comments');
+const port = 'https://nodeserver22.herokuapp.com/';
 require('./db/db')();
 // app.use(db);
 app.use(cors());
@@ -26,6 +27,6 @@ app.get("/", function (req, res) {
 //   res.sendFile('http://localhost:3000/users');
 // });
 
-app.listen(3000, function () {
-  console.log("server running on localhost:3000");
+app.listen(port, function () {
+  console.log("server running on https://nodeserver22.herokuapp.com/");
 });
