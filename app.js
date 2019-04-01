@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const users = require('./routes/users');
 const posts = require('./routes/posts');
 const comments = require('./routes/comments');
-const port = 'https://nodeserver22.herokuapp.com/';
+const port = '3000';
 require('./db/db')();
 // app.use(db);
 app.use(cors());
